@@ -12,6 +12,7 @@
 		F550046020C62C15009CB0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550045E20C62C15009CB0AF /* Main.storyboard */; };
 		F550046220C62C15009CB0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F550046120C62C15009CB0AF /* Assets.xcassets */; };
 		F550046520C62C15009CB0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F550046320C62C15009CB0AF /* LaunchScreen.storyboard */; };
+		F550046E20C62D94009CB0AF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F550046D20C62D94009CB0AF /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F550046120C62C15009CB0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F550046420C62C15009CB0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F550046620C62C15009CB0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F550046D20C62D94009CB0AF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F550046E20C62D94009CB0AF /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				F550045920C62C15009CB0AF /* Map View 03 */,
 				F550045820C62C15009CB0AF /* Products */,
+				F550046C20C62D94009CB0AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				F550046620C62C15009CB0AF /* Info.plist */,
 			);
 			path = "Map View 03";
+			sourceTree = "<group>";
+		};
+		F550046C20C62D94009CB0AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F550046D20C62D94009CB0AF /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
